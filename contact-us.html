@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/mediaqueries.css" rel="stylesheet" />
+    <link href="css/desktop-mediaqueries.css" rel="stylesheet" />
+
+
+
+    <title>Contact Us</title>
+</head>
+
+<body id="contact-us">
+
+    <header>
+
+
+        <nav class="nav-main">
+            <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+
+              
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs-and-calendar.html">Space programs</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a class="active" href="contact-us.html">Contact us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+     
+        <div class="logo"><img src="../images/logo.svg" alt="logo"> </div>
+        
+
+        <div class="search">
+            <form action="" id="search-box">
+               
+                <div id="search-button" onclick="searchBox()"></div>
+            </form>
+         </div> 
+        <div class="search-background">
+         <input type="text" placeholder="Search here" id="search-bar">
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Send us a Message</h1> 
+        <form id="contact-form">
+
+            <div class="wrapping">
+                <div class="group">
+                    <div><label for="name">Name</label></div>
+                    <div><input type="text" name="name" id="name"/></div>
+                <div class="form-error" id="name-error"><p>Please enter your name</p></div>
+                </div>
+
+                <div class="group">
+                    <div><label for="email">Email</label></div>
+                    <div><input type="text" name="email" id="email"/></div>
+                    <div class="form-error" id="email-error"><p>Please enter your email</p></div>
+                </div>
+            </div>
+            <div class="group">
+                <div><label for="subject">Subject</label></div>
+                <div><input type="text" name="subject" id="subject"/></div>
+                <div class="form-error" id="subject-error"><p>Please enter your subject</p></div>
+            </div>
+            <div class="group">
+                <div><label for="message">Message</label></div>
+                <div><input type="text" name="message" id="message"/></div>
+                <div class="form-error" id="message-error"><p>Please enter your message</p></div>
+            </div>
+            <div class="group">
+            <input type="submit" value="send" class="submit" />
+                <div class="clear"></div>
+            </div>
+           
+            </div>
+            
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Contact us on social media</h1>
+        <div class="images">
+            <img src="images/facebook-dark.svg" alt="facebook">
+            <img src="images/insta-dark.svg" alt="instagram">
+            <img src="images/twitter-dark.svg" alt="twitter">
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <ul class="footer-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs-and-calendar.html">Space programs</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="group">
+            <img src="images/facebook-icon.svg" alt="facebook"/>
+            <img src="images/instagram.svg" alt="instagram"/>
+            <img src="images/twitter.svg" alt="twitter"/>
+        </div>
+       
+
+     <p>Designed by @moisesmagalhaes</p>
+    </footer>
+
+    <script src="js/contact-us.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

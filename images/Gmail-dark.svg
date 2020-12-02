@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103.657" height="79.084" viewBox="0 0 103.657 79.084">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="1" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g id="Gmail" transform="translate(-0.229 -0.044)">
+    <path id="Path_15" data-name="Path 15" d="M97.3,79.285H6.718a6.489,6.489,0,0,1-6.47-6.47V7.379A6.489,6.489,0,0,1,6.718.909H97.3a6.489,6.489,0,0,1,6.47,6.47V72.816a6.43,6.43,0,0,1-6.47,6.47Z" transform="translate(-0.02 -0.539)" fill="#e3e3e3"/>
+    <path id="Path_16" data-name="Path 16" d="M30.577,103.819,69.3,72.671l.277-1.664L29.653,42.264l-.092,60.169Z" transform="translate(-17.409 -25.073)" fill="#231f20" opacity="0.1"/>
+    <path id="Path_17" data-name="Path 17" d="M6.718,82.386a6.43,6.43,0,0,1-6.47-6.47V10.387c0-3.6,2.865-4.252,6.47-4.252s6.47.739,6.47,4.252v72Z" transform="translate(-0.02 -3.64)" fill="#00133b"/>
+    <path id="Path_19" data-name="Path 19" d="M229.4,82.386h-6.47V10.2c0-3.6,2.865-4.067,6.47-4.067s6.47.462,6.47,4.067V76.009a6.41,6.41,0,0,1-6.47,6.377Z" transform="translate(-132.123 -3.64)" fill="#001f45"/>
+    <path id="Path_21" data-name="Path 21" d="M70.357,89.876,1.58,20.564,5.2,22.036,53.074,56.51l51.481-37.75V83.5a6.41,6.41,0,0,1-6.47,6.377Z" transform="translate(-0.81 -10.747)" fill="url(#linear-gradient)"/>
+    <path id="Path_22" data-name="Path 22" d="M51.927,47.663,3.034,12.172A6.53,6.53,0,0,1,1.463,3.115a6.7,6.7,0,0,1,9.243-1.386L52.019,31.766,93.611,1.359a6.429,6.429,0,0,1,9.058,1.479,6.429,6.429,0,0,1-1.479,9.058L51.927,47.663Z" transform="translate(-0.032 -0.065)" fill="#00133b"/>
+  </g>
+</svg>

@@ -1,0 +1,317 @@
+/* Media queries for tablets*/
+
+@media only screen and (min-width: 500px) {
+
+    /*------------------menu-------------------*/
+    .btn-toggle-nav, .menu{
+        margin-left: 103.7px;
+    }
+    .menu{
+        padding-left: 0;
+    }
+
+    .btn-toggle-nav:checked {
+        margin-left: 63% !important;
+    }
+
+    .search{
+        margin-right: 33%;
+
+    }
+
+    #search-button{
+        margin-right:0;
+
+    }
+
+    
+    /*------------------body-------------------*/
+
+    .front-picture{
+        text-align: center;
+        background: linear-gradient(to bottom,#000630 50%, white 50%);
+        height: 100%;
+        width: 100%;
+    }
+
+    .container .front-picture .image,  #about-us-page .container .front-picture .image{
+        height: 400px;
+        /*width: 200%;*/
+        max-width:80% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+        }
+
+
+    h1{
+        margin-left: 11%; 
+    }
+    .container .welcome h1{
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .wrapping{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left:10%;
+        margin-right: 10%;
+ 
+    }
+
+    .wrapping p{
+        margin: 0;
+    }
+
+   /*.wrapping #next-launches,  .wrapping #dragon-container, .wrapping #starlink-container{
+        margin-right: 16px;
+
+    }*/
+
+    .wrapping .subbox{
+        margin: 0;
+        margin-right:0;
+        width: 100%;
+    }
+
+
+    .subbox .title,  .box .title{
+        margin: auto 0; 
+    }
+
+
+    .box:nth-child(2),    .box:nth-child(4),    .box:nth-child(6){
+        margin-left: 16px;
+
+    }
+
+     .subbox .title{
+        width: 80%;
+        height: fit-content;
+
+    }  
+
+    .image{
+        background-position:50%;
+    }
+
+
+    .image, .image img{
+        max-width: 95% !important;
+       text-align: left;
+       margin-left: 0;
+       margin-right:0;
+    }
+
+    .box .subbox p{
+        text-align: left;
+    }
+
+    /*--------------footer---------------------*/
+
+    footer .footer-menu{
+        padding-left:0;
+       
+    }
+    footer .group{
+        margin-left:0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    footer .group img:nth-child(1),footer .group img:nth-child(3){
+        justify-self: right;
+        margin-right: 8.5px;
+    }
+
+    footer .group img:nth-child(2),footer .group img:nth-child(4){
+        justify-self: left;
+        margin-left: 8.5px;
+    }
+/*-------------------Programs and calendar------------------------*/
+    #programs-page .container{
+        height:470px;
+        background-color: #000630;
+        width: 100%;
+    }
+
+/*----------------------------about us-------------------------*/
+
+   /* #about-us-page .front-picture img{
+        width: 80%;
+        max-width: 750px;
+    }*/
+    #about-us-page .container h1, #about-us-page .container p, #about-us-page .container h2, #about-us-page .container h3{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #about-us-page .box,  #about-us-page h2{
+        margin-left:0;
+        margin-right:0;
+    }
+
+    #about-us-page .wrapping{
+        grid-template-columns: 1fr;
+    }
+
+    
+   
+
+
+
+/*----------------------------contact us-----------------------*/
+
+
+    #contact-us .container{
+        background-color:   #F6F6F6;
+        margin-bottom: 100px;
+        max-width: none;
+
+    }
+
+    #contact-us form{
+    background: none;
+    }
+
+    #contact-us h1{
+        color: black;
+        margin: 0;
+    }
+
+    #contact-us .group{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #contact-us form .wrapping {
+        margin-left: 4%;
+        margin-right: 3.5%;
+    }
+
+    #contact-form .group{
+        margin-top:20px;
+        box-sizing: border-box;
+    }
+
+    #contact-us #contact-form input{
+        width: 100% !important;
+    }
+
+    #contact-us #message{
+        height: 250px;
+    }
+
+    #contact-us .container .images{
+    text-align: center;
+    height: 709px;
+    margin-top: 84px;
+    }
+
+    #contact-us footer .group{
+        text-align: center;   
+    }
+
+    #contact-us #contact-form .submit{
+        width: 144px !important;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+/*-----------------------next launch------------------------------*/
+
+    #next-launch-page .title, #next-launch-page h2, #next-launch-page p,  #next-launch-page .image {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    #next-launch-page .title{
+        width: 274px;
+    }
+
+ /*--------------------------launches page/dragons page-------------------------------*/ 
+    .sort-by{   
+        margin-left: 10%;
+    }
+    #launches .subbox .title, #dragons .wrapping .subbox .title{
+        margin-left: 0;
+        width: 274px;
+    }
+
+    #launches .wrapping{
+        box-sizing: border-box;
+    }
+
+    #launches  .subbox:nth-child(2), .subbox:nth-child(4), .subbox:nth-child(6),   #dragons  .subbox:nth-child(2) {
+        margin-left: 16px;
+        box-sizing: border-box;
+
+    }
+
+    #launches .subbox .images img{
+        width: 85%;
+    }
+/*--------------------------------launches-detail-----------------------------*/
+    #launches-detail .box,  #launches-detail .title{
+        margin-left: 0 !important;
+    }
+    #launches-detail .box .subbox,#starlink-detail .box .subbox{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #launches-detail .box .subbox .image{
+       text-align: center;
+    }
+/*------------------------ships ----------------------------------------*/
+  #ships-page .box{
+      max-height: none;
+      height: 100%;
+  }
+
+/*--------------------------ship container----------------------------*/
+    #ship-detail-page .box .links,  #ship-detail-page .box .links .link a{
+        word-break: break-all;
+        
+    }
+
+
+    #ships-page .subbox button{
+        margin-left: 225px;
+        
+    }
+
+    #ship-detail-page .wrapping .title{
+        width: 274px;
+    }
+
+
+
+    #ship-detail-page .wrapping{
+        grid-template-columns: 1fr;
+
+    }
+
+
+/*--------------------------starlink--------------------------------*/    
+    #starlink .subbox .title, #starlink-detail .subbox .title{
+        width: 274px;
+    }
+    #starlink .wrapping{
+        gap: 16px;
+    }
+    #starlink .wrapping .subbox{
+        margin-left: 0;
+       
+    }
+
+/*------------------------dragons detail------------------------*/
+    #dragon-detail .dragons-container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #dragon-detail .dragons-container .subbox .title{
+        margin-left: 0;
+    }
+
+}

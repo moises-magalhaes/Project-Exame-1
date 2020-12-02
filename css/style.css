@@ -1,0 +1,541 @@
+html{
+    margin: 0 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Quicksand:wght@300;500;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background-color: #000630;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: sticky;
+    margin: 0;
+    z-index: 1;
+} 
+
+h1, h2, h3{
+    font-family: "Open Sans";
+}
+
+.btn-toggle-nav {
+    width: 60px;
+    height: 52.99px;
+    background-image: url("../images/hamburger.svg");
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+    overflow: hidden  !important;
+    position: relative !important;
+}
+
+.hamburger-menu:hover{
+    opacity: 0.7;
+}
+
+.nav-main{
+justify-self: start;
+width: 100%;
+height: 100%;
+/*z-index: 1000;*/
+}
+
+  /*-------------menu------------------------*/ 
+
+.menu{
+    padding-top: 50px;
+    position: fixed;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin-top: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.menu li .active{
+    border-bottom: solid 5px;
+}
+
+.menu li a{
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Open Sans";
+    color: #fff;
+    font-weight: 700;
+}
+
+.menu li a:hover{
+    opacity: 0.4;
+}
+
+.menu li{
+    cursor: pointer;
+}
+
+#toggle{
+    cursor: pointer;
+    display: none;
+
+}
+
+
+.logo{
+    width:147px;
+
+  
+}
+
+.search{
+    width: 50px;
+    justify-self: end;
+
+}
+
+#search-box{
+    padding: 0;
+    margin-top: 15px;
+    }
+    
+#search-button{
+    background: url("../images/search-small.svg") center center/33px no-repeat;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    float: right;
+    margin-right: 4px;
+    cursor: pointer;
+    border: none;
+    z-index: 1000;
+    margin-right: 37px;
+
+ }
+    
+
+.search-background{
+    width: 100%;
+    height: 100%;
+    background-color:#000630;
+    position: fixed;
+    display: none;
+    z-index:-1;
+}
+
+#search-bar{
+       /* display: none;*/
+        margin-left: 40px;
+        margin-right: 37px;
+        max-width: 80%;
+        min-width: 335px;
+        /*text-align: left !important;
+        margin-top: 50px;
+        margin-right: 650px;*/
+    }
+
+.front-picture{
+  
+    height: 365px;
+    background: linear-gradient(to bottom,#000630 50%, white 50%);
+
+}
+
+
+/*----------------popup--------------------*/
+.popup{
+    position: fixed;
+    top: 30%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 150ms ease-in-out;
+    background-color: #EBEBEB;
+    padding: 20px;
+    max-width: 412px;
+    width: 80%;
+    height: 522px;
+}
+
+.popup .inactive{
+    transform: translate(-50%, -50%) scale(0);
+    display: none;
+}
+
+.popup p{
+    padding-right: 10px;
+    margin-right: 40px;
+    font-size: 25.5vw;
+}
+
+.close-button{
+    float: right;
+    border-radius: 50%;
+    border: 0;
+    padding: 2px 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #3C3C3C;
+}
+
+
+.sort-by{
+    margin: 20px;
+}
+/*-------------body containers---------------*/
+.welcome{
+    background-color: #000630;
+    text-transform: uppercase;
+}
+
+.container .front-picture .image{
+    background: url(../images/Astronauts.jpg) center center/150% no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    }
+
+h1{
+    margin-left: 10px;
+    color: white;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.box{
+    
+
+    margin: 10px 0;
+}
+
+.box h2{
+    margin-left: 10px;
+}
+
+.box p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.subbox img{
+    max-width: 412px;   
+}
+
+#dragon-container .image img{
+    max-width: 412px;
+}
+#dragon-container .subbox p{
+    text-align: left;
+}
+
+.subbox .title a{
+    text-decoration: none;
+    color:black;
+}
+
+.subbox .title a:visited{
+    color:black;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+button a{
+    color: white;
+}
+
+button, .submit{
+    width: 144px;
+    height:48px;
+    background-color: #3c3c3c;
+    color: white;
+    border: none;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 30px auto 0 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -2;
+
+}
+
+button:hover, .submit:hover{
+    background-color:#16b3d3;
+}
+
+#next-launches .subbox .title{
+    background-color: #F17373;
+}
+
+#next-launches .subbox .image{
+    background-image: url(../images/09.jpg);
+    max-width: 412px;
+    height: 412px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+}
+#news-container .subbox .title{
+    background-color: #8EF4B9;
+}
+#dragon-container .subbox .title {
+    background-color: #EFF469;
+}
+#ship-container .subbox .title, #ships-page .subbox .title, #ship-detail-page .subbox .title{
+    background-color: #DEBF78;
+}
+#ship-container .subbox .image{
+    background-image: url(../images/17.jpg);
+    max-width: 412px;
+    height: 412px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+}
+
+#starlink-container .subbox .title{
+    background-color: #EECAEB;
+    height: auto;
+}
+
+#starlink-container .subbox .image{
+    background-image: url(../images/20.jpg);
+    max-width: 412px;
+    height: 412px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+}
+
+
+.subbox .title{
+    margin-left: 37px;
+    height: 42px;
+    width: 274px;
+    text-transform: uppercase;
+
+}
+
+#next-launches, #news-container, #dragon-container, #ship-container, #starlink-container{
+
+    overflow: hidden;
+}
+
+.image{
+    text-align: center;
+}
+/*---------------------footer----------------------------------*/
+footer{
+    background-color: #000630;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-menu{
+ text-align: center;
+ margin-bottom: 30px;
+ padding-left: 0;
+ }
+
+ .footer-menu li{
+    padding-top: 30px;
+    }
+
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 500;
+
+}
+
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 121px;
+    margin-right:116px;
+    
+}
+
+.group img{
+    justify-self: center;
+    margin-bottom: 30px;
+
+}
+
+footer p{
+    
+    color: white;
+    text-align: center;
+   
+}
+
+/*---------------------about us-------------------------*/
+
+#about-us-page .container .front-picture .image{
+    background: url(../images/16.jpg) center center/150% no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    }
+    
+
+/*---------contact us----------------------*/
+
+#contact-us h1{
+    color: black;
+    text-align: center;
+}
+
+#contact-us .container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+form{
+    padding: 2em;
+    background: rgb(238, 236, 236);
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+#contact-us #contact-form .group input {
+    width: 250px;
+    box-sizing:border-box;
+}
+
+#contact-us .group {
+    display: block;
+    text-align: center;
+    box-sizing:border-box;
+    margin: 0;
+}
+
+
+.form-error{
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+#contact-us .container .images{
+    text-align: center;
+}
+
+/*---------ships ----------------------*/
+
+
+
+#ships {
+    height: 100vh;
+
+}
+
+#ships #wrapping .box{
+
+    padding: 40px 40px 400px 40px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    min-height: calc(100vh - 63.98px - 588.16px);
+
+}
+
+
+
+#ships footer{
+    
+    position: relative;
+
+}
+
+/*-------------------launches---------------------*/
+
+#launches .subbox .images{
+    text-align: center;
+}
+
+#launches  .subbox .title, #launches-detail  .box .title{
+    background-color: #8EF4B9;
+    margin-left: 37px;
+    height: 42px;
+    width: 274px;
+    text-transform: uppercase;
+}
+
+#launches-detail  .box .links{
+    word-wrap: break-word;
+
+}
+
+#dragons .wrapping .subbox .title, #dragon-detail .dragons-container .subbox .title{
+    background-color: #EFF469;
+    margin-left: 37px;
+    height: 42px;
+    width: 274px;
+}
+
+#starlink #starlink-container .subbox .title, #starlink-detail #starlink-container .subbox .title{
+    height: 55px;
+}
+/*-------------login---------------------------*/
+#login-page .group{
+    display: block;
+}
+
+
+#login-page h2{
+    text-align: center;
+}
+
+#login-page .images{
+    text-align: center;
+}
+
+
+#login-page #signin{
+    margin-top: 100px;
+}
+
+#login-page form{
+    border-radius: 0;
+}
+
+#login-page .submit{
+        width: 144px;
+        height:48px;
+        background-color: #3c3c3c;
+        color: white;
+        border: none;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        margin: 30px auto 0 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: -2;
+    
+    }
+    
+    #login-page .submit:hover{
+        background-color:#16b3d3;
+    }
+

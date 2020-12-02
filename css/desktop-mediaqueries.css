@@ -1,0 +1,201 @@
+@media only screen and (min-width: 1200px) {
+    
+    header{
+        justify-items: end;
+    }
+
+    .btn-toggle-nav{
+        display: none;
+    }
+
+    .menu{
+        visibility: visible;
+        display: inline-flex;
+        position: relative;
+        padding: 0;
+    }
+
+    .menu li {
+        margin-left: 1%;
+        width: 130px;
+        cursor: pointer;
+    }
+
+
+    .menu li:nth-child(1){
+        margin-left: 3%;
+    }
+
+    .menu li:nth-child(2){
+        margin-right: 3%;
+        width: 145px;
+    }
+
+    .menu li a{
+        font-size: 15px;
+    }
+
+    .nav-main{
+        order: 2;
+    }
+
+    .logo{
+        order: 1;
+        margin-left: 140px;
+        margin-top: 15px;
+        justify-self: start;
+    }
+
+    .search, #about-us-page .search{
+        order: 3;
+        margin-right:35%;
+        margin-top: 15px;
+    }
+    #search-button, #about-us-page #search-button{
+        margin-right: 0;
+    }
+    .search-background, #about-us-page .search-background{
+        display: block;
+        background: none;
+        position: relative;
+        order: 4;
+        width: 250px;
+        margin-right: 22%;
+        margin-left: 0;
+        grid-column: 2/6;
+        grid-row: 3/3;
+        justify-self: end;
+        padding-bottom: 10px;
+       /*align-self: end;*/
+    }
+
+    .search-background #search-bar, #about-us-page .search-background #search-bar{
+        margin-left: 0;
+        margin-right: 0;
+        width: 250px;
+        justify-self: end;
+       /* align-self: end;*/
+    }
+
+    /*---------------------homepage--------------------------------*/
+
+
+    .front-picture{
+        width: 100%;
+        height: 496.07px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    .container .front-picture .image, #about-us-page .container .front-picture .image{
+        height: 600px;
+    }
+
+    .wrapping{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 140px;
+        margin-right: 140px;
+        gap: 0 16px;
+    }
+
+    .box ,.subbox,.box:nth-child(2),.box:nth-child(4), .wrapping .box .subbox .image{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wrapping .box .subbox .image{
+        text-align: center;
+    }
+
+    
+
+
+    /*--------------------------about us----------------------------*/
+    /*---------------------contact us-------------------------------*/
+    #contact-us .wrapping{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #contact-us #contact-form #name, #contact-us #contact-form #email {
+        width: 374.97px !important;
+    }
+
+    #contact-us #contact-form #subject,   #contact-us #contact-form #message{
+        width: 825.63px !important;
+    }
+
+
+     #contact-us #contact-form .wrapping .group:nth-child(1){
+        justify-self: end;
+        margin-right: 29px;
+     }
+
+     #contact-us #contact-form .wrapping .group:nth-child(2){
+        justify-self: start;
+       margin-left: 27px;
+     }
+
+     #contact-us #contact-form .submit{
+        margin-left: 185px;
+        margin-right:50px;
+    }
+    /*---------------------------login------------------------*/
+    #login-page #login, #login-page #signin{
+        text-align: center;
+        display: block;
+    }
+
+    #login-page .container #login .group input, #login-page .container #signin .group input{
+        width: 825.63px;
+    }
+
+    #login-page .container #login .group, #login-page .container #login .group label, #login-page .container #signin .group label{
+        display: block;
+    }
+
+
+    #login-page .container #login .group .submit, #login-page .container #signin .group .submit{
+        width: 144px;
+        margin-left: 155px;
+    }
+
+    /*------------------------------dragons-------------------------------*/
+    #dragons .wrapping{
+        grid-template-columns: 1fr 1fr;
+    }
+     /*------------------------------launches/ships---------------------------------*/
+    #launches p{
+        padding-right: 10px;
+    }
+
+    #launches .subbox,  #launches .subbox:nth-child(2), #ships-page .subbox, #ship-detail-page .wrapping h2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #ships-page .subbox button{
+        margin-left: 225px;
+        
+    }
+
+    #ship-detail-page .wrapping .title{
+        width: 274px;
+    }
+
+
+
+    #ship-detail-page .wrapping{
+        grid-template-columns: 1fr;
+
+    }
+   
+    /*------------------------------starlink--------------------------------*/
+
+    #starlink .wrapping .subbox{
+        margin-left: 0;
+    }
+
+}

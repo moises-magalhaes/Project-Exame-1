@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Programs and Calendar</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/mediaqueries.css" rel="stylesheet" />
+    <link href="css/desktop-mediaqueries.css" rel="stylesheet" />
+
+
+</head>
+<body id="programs-page">
+    <header>
+
+
+        <nav class="nav-main">
+            <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+
+              
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="programs-and-calendar.html">Space programs</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+     
+        <div class="logo"><img src="../images/logo.svg" alt="logo"> </div>
+        
+
+        <div class="search">
+            <form action="" id="search-box">
+               
+                <div id="search-button" onclick="searchBox()"></div>
+            </form>
+         </div> 
+        <div class="search-background">
+         <input type="text" placeholder="Search here" id="search-bar">
+        </div>
+
+
+    </header>
+
+    
+    <div class="container">
+        <h1>Welcome to SpaceX Programs</h1>
+    </div>
+    <div class="wrapping">
+        <div class="box" id="next-launches"> 
+        </div>
+
+        <div class="box" id="news-container">
+        
+        </div>
+        <div class="box" id="dragon-container">
+        
+        </div>
+        <div class="box" id="ship-container">
+        
+        </div>
+        <div class="box" id="starlink-container">
+
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <ul class="footer-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs-and-calendar.html">Space programs</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="sign-in.html">Sign in</a></li>
+            </ul>
+        </div>
+        <div class="group">
+            <img src="../images/facebook-icon.svg" alt="facebook"/>
+            <img src="../images/instagram.svg" alt="instagram"/>
+            <img src="../images/twitter.svg" alt="twitter"/>
+        </div>
+       
+
+     <p>Designed by @moisesmagalhaes</p>
+    </footer>
+
+    <script src="js/programs.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/search.js"></script>
+    
+</body>
+</html>
