@@ -298,7 +298,7 @@ catch (error) {
 callstarlinks();
 
 /*----------------------------------pop-up---------------------------------*/
-/*setTimeout(
+setTimeout(
     function changeScale(){
     document.getElementById("popup").style.transform = "scale(1)";
 }, 5000);
@@ -306,4 +306,4 @@ callstarlinks();
 function closePopup(){
     document.getElementById("popup").className = "inactive";
     document.getElementById("popup").style.transform = "scale(0)";
-}*/
+}
